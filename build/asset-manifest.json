@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4adc51a9.chunk.css",
+    "main.js": "./static/js/main.8da4aa0c.chunk.js",
+    "main.js.map": "./static/js/main.8da4aa0c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a1409e69.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a1409e69.js.map",
+    "static/js/2.a09e7cc5.chunk.js": "./static/js/2.a09e7cc5.chunk.js",
+    "static/js/2.a09e7cc5.chunk.js.map": "./static/js/2.a09e7cc5.chunk.js.map",
+    "static/js/3.369374b7.chunk.js": "./static/js/3.369374b7.chunk.js",
+    "static/js/3.369374b7.chunk.js.map": "./static/js/3.369374b7.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.4adc51a9.chunk.css.map": "./static/css/main.4adc51a9.chunk.css.map",
+    "static/js/2.a09e7cc5.chunk.js.LICENSE.txt": "./static/js/2.a09e7cc5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/Montserrat-Thin.8067c90c.eot",
+    "static/media/advertising-bg-cover.77cb67cc.jpg": "./static/media/advertising-bg-cover.77cb67cc.jpg",
+    "static/media/advice_first.d2f0a587.jpg": "./static/media/advice_first.d2f0a587.jpg",
+    "static/media/advice_fourth.2c009412.jpg": "./static/media/advice_fourth.2c009412.jpg",
+    "static/media/advice_second.8fdd7d97.jpg": "./static/media/advice_second.8fdd7d97.jpg",
+    "static/media/advice_third.0a77edc8.jpg": "./static/media/advice_third.0a77edc8.jpg",
+    "static/media/Main.css": "./static/media/page-layout.feb46ac1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1409e69.js",
+    "static/js/2.a09e7cc5.chunk.js",
+    "static/css/main.4adc51a9.chunk.css",
+    "static/js/main.8da4aa0c.chunk.js"
+  ]
+}
