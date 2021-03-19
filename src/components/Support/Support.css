@@ -1,0 +1,114 @@
+.support {
+  width: 100%;
+  padding: 80px 0px 148px 0px;
+  background-color: var(--background-secondary-color);
+}
+.support__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.support__title {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: var(--title-color);
+  text-align: center;
+}
+.support__subtitle {
+  margin: 10px auto 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--subtitle-color);
+  text-align: center;
+  max-width: 470px;
+}
+.support__cards {
+  width: 100%;
+  padding: 0px;
+  margin: 80px 0px 0px 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.support__card {
+  width: 328px;
+  height: 333px;
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px 0px;
+  box-sizing: border-box;
+}
+.support__card_type_active {
+  height: 393px;
+  background-color: var(--title-color);
+  padding: 80px 15px 0px;
+}
+.support__card-icon {
+  height: 72px;
+  margin-bottom: 15px;
+  object-position: center center;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+.support__card-icon_type_active {
+  object-position: 7px center;
+}
+.support__card-email {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--title-color);
+}
+.support__card-email_type_active {
+  color: var(--white-color);
+}
+.support__card-title {
+  margin: 15px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: var(--title-color);
+}
+.support__card-title_type_active {
+  color: var(--white-color);
+}
+.support__card-btn {
+  margin: 15px 0px 0px 0px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: inherit;
+  outline: none;
+  transition: .3s ease-in-out;
+}
+.support__card-btn:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--white-color);
+}
+.support__card-btn_type_active {
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+}

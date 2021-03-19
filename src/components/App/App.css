@@ -1,0 +1,46 @@
+.page {
+  --title-color: #252B42;
+  --subtitle-color: #737373;
+  --white-color: #ffffff;
+  --background-main-color: #FAFAFA;
+  --background-secondary-color: #F3F3F3;
+  --primary-color: #FFA62B;
+  --main-color: #00A0C1;
+  --secondary-color: #16697A;
+  --background-form-color: #F9F9F9;
+  --border-form-color: #E6E6E6;
+  color: var(--subtitle-color);
+  background-color: var(--background-main-color);
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  position: relative;
+}
+.page__layout {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: url('../../images/page-layout.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page__container {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: 0px auto;
+  max-width: 1046px;
+  box-sizing: border-box;
+}
