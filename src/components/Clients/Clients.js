@@ -11,7 +11,7 @@ import sixClientIcon from '../../images/client-six-icon.png';
 function Clients() {
   return (
     <section className="clients">
-      <ul className="container clients__container">
+      <ul className="container clients__container" data-aos="slide-left">
         <li className="clients__item"><img className="clients__icon" src={oneClientIcon} alt="client-one"></img></li>
         <li className="clients__item"><img className="clients__icon" src={twoClientIcon} alt="client-two"></img></li>
         <li className="clients__item"><img className="clients__icon" src={threeClientIcon} alt="client-three"></img></li>
@@ -19,7 +19,7 @@ function Clients() {
         <li className="clients__item"><img className="clients__icon" src={fiveClientIcon} alt="client-five"></img></li>
         <li className="clients__item"><img className="clients__icon" src={sixClientIcon} alt="client-six"></img></li>
       </ul>
-      <div className="clients__form container">
+      <div className="clients__form container" data-aos="zoom-in-up" data-aos-duration="1000">
         <div className="clients__form-container">
           <h3 className="clients__form-title">Subscribe For Latest Newsletter</h3>
           <Form />

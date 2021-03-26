@@ -10,8 +10,15 @@ import Support from '../Support/Support.js';
 import Feedback from '../Feedback/Feedback.js';
 import Contacts from '../Contacts/Contacts.js';
 import Footer from '../Footer/Footer.js';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  React.useEffect(() => {
+    Aos.init({ duration: 2000, once: true, });
+  }, []);
+
   return (
     <div className="page">
       <div className="page__container">
